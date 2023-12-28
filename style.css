@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500&display=swap');
+
+:root {
+    --yellow: yellow;
+    --white: #ffffff;
+    --black: black;
+    --blue: blue;
+    --text-color: rgb(176, 183, 185);
+}
+
+body{
+    background-color: #0D2438;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.con-md{
+    width: 60%;
+    margin: auto;
+   
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 3rem;
+    color: var(--white);
+    transition: 2s;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+@media (max-width: 500px) {
+    .intro h1{
+        font-size: 2rem;
+    }
+}
+h2::selection,p::selection, h1::selection  {
+    color: var(--black);
+    background: var(--yellow);
+}
+h3::selection{
+    color: var(--white);
+    background: var(--blue);
+}
+
+span p{
+    color: rgb(158, 138, 138);
+}
+
+h2{
+    color: white;
+}
+h3{
+    color: rgb(213, 217, 218);
+}
+p{
+    color:var(--text-color) ;
+}
+blockquote{
+    color: var(--text-color);
+}
+.project blockquote{
+    line-height: 20px;
+}
+.project img{
+    width: 2rem;
+}
+a{
+    font-size: 19px;
+    color: aqua;
+}
+.contact{
+    line-height: 29px;
+}
